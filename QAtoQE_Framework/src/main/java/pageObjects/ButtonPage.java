@@ -39,7 +39,6 @@ public class ButtonPage extends baseMethods
 
         Actions actions = new Actions(driver);
         actions.moveToElement(this.btn_doubleClick).doubleClick().perform();
-
         actions.moveToElement(this.btn_rightClick).contextClick().perform();
     }
 

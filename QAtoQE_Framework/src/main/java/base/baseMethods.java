@@ -20,4 +20,12 @@ public abstract class baseMethods
         FileUtils.copyFile(src,new File("target/"+fileName+".png"));
     }
 
+    public WebDriver getDriver()
+    {
+        driver = DriverFactory.getDriver(DriverType.CHROME);
+        return driver;
+    }
+
+
+
 }

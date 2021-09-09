@@ -34,7 +34,7 @@ public class SmokeTest1
         textBoxPage = new TextBoxPage(driver);
         this.textBoxPage.clickTextButton();
         Assert.assertTrue(this.textBoxPage.isAt());
-        textBoxPage.enterDetails("test2@gmail.com");
+        textBoxPage.enterDetails();
         textBoxPage.screenshot("textboxPageDetails",driver);
     }
 
