@@ -1,0 +1,185 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-14T01:27:05.291Z",
+        "line": 13,
+        "name": "Testing textbox elements",
+        "description": "",
+        "id": "textbox-option-tests;testing-textbox-elements;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1366201000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have open the browser",
+            "match": {
+              "location": "stepDefinitions.Steps.iOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I am navigating to the site https://www.demoqa.com/elements",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I click on button option",
+            "match": {
+              "location": "stepDefinitions.Steps.iClickOnButtonOption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I click button options and take screenshot as buttonscreenshot",
+            "match": {
+              "arguments": [
+                {
+                  "val": "buttonscreenshot",
+                  "offset": 46
+                }
+              ],
+              "location": "stepDefinitions.Steps.clickingButtonOptions(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I quit the application",
+            "match": {
+              "location": "stepDefinitions.Steps.iQuitTheApplication()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "TextBox option tests",
+    "description": "",
+    "id": "textbox-option-tests",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/button.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-14T01:27:06.672Z",
+        "line": 14,
+        "name": "Testing textbox elements",
+        "description": "",
+        "id": "textbox-option-tests;testing-textbox-elements;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 982703000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have open the browser",
+            "match": {
+              "location": "stepDefinitions.Steps.iOpenBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3622398000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am navigating to the site",
+            "match": {
+              "location": "stepDefinitions.Steps.iAmNavigatingToTheURL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96793000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on textbox option",
+            "match": {
+              "location": "stepDefinitions.Steps.iClickOnTextboxOption()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1041272000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter all the textbox details and take screenshot as screenTextbox100",
+            "match": {
+              "arguments": [
+                {
+                  "val": "screenTextbox100",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinitions.Steps.iEnterAllTheTextboxDetails(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146335000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I quit the application",
+            "match": {
+              "location": "stepDefinitions.Steps.iQuitTheApplication()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanitytest"
+          }
+        ]
+      }
+    ],
+    "name": "TextBox option tests",
+    "description": "",
+    "id": "textbox-option-tests",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/textbox.feature",
+    "tags": []
+  }
+]

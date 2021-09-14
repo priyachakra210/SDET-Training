@@ -36,16 +36,18 @@ public class Steps
     }
 
 
-    @Given("^I am navigating to the site (.*)$")
-    public void iAmNavigatingToTheURL(String URL)
-    {
-        driver.get(URL);
+    @Given("^I am navigating to the site$")
+    public void iAmNavigatingToTheURL() throws IOException {
+
+        textBoxPage = new TextBoxPage(this.driver);
+        String url = textBoxPage.getProperties("url");
+        driver.get(url);
     }
 
     @When("^I click on textbox option$")
     public void iClickOnTextboxOption()
     {
-        textBoxPage = new TextBoxPage(this.driver);
+
         this.textBoxPage.clickTextButton();
         Assert.assertTrue(this.textBoxPage.isAt());
     }

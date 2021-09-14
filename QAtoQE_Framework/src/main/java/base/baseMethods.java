@@ -6,7 +6,10 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Properties;
 
 public abstract class baseMethods
 {
@@ -20,10 +23,20 @@ public abstract class baseMethods
         FileUtils.copyFile(src,new File("target/"+fileName+".png"));
     }
 
-    public WebDriver getDriver()
-    {
-        driver = DriverFactory.getDriver(DriverType.CHROME);
-        return driver;
+    public String getProperties(String keyvalue) throws IOException {
+
+        //Created File objects
+        File file = new File("src/main/resources/properties/data.properties");
+        FileInputStream fileInputStream = new FileInputStream(file);
+
+        //Create Properties Object
+        Properties properties = new Properties();
+
+        properties.load(fileInputStream);
+
+        return properties.getProperty(keyvalue);
+
+
     }
 
 

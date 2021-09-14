@@ -4,14 +4,16 @@ Feature: TextBox option tests
   @sanitytest
   Scenario Outline: Testing textbox elements
     Given I have open the browser
-    And I am navigating to the site <URL>
+    And I am navigating to the site
     When I click on textbox option
     And I enter all the textbox details and take screenshot as <ScreenshotName>
     Then I quit the application
 
     Examples:
-      | URL                             | ScreenshotName   |
-      | https://www.demoqa.com/elements | screenTextbox100 |
+      | ScreenshotName   |
+      | screenTextbox100 |
+#      | URL                             | ScreenshotName   |
+#      | https://www.demoqa.com/elements | screenTextbox100 |
 #      | https://www.demoqa.com/elements | screenTextbox200 |
 
   @datawithoutheader
