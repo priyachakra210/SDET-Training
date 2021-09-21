@@ -3,183 +3,163 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-14T01:27:05.291Z",
-        "line": 13,
-        "name": "Testing textbox elements",
+        "start_timestamp": "2021-09-21T22:50:48.924Z",
+        "line": 4,
+        "name": "Creating GET Call for Single User",
         "description": "",
-        "id": "textbox-option-tests;testing-textbox-elements;;2",
+        "id": "creating-smoke-test-for-regres.in-api-calls;creating-get-call-for-single-user",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1366201000,
+              "duration": 380799000,
               "status": "passed"
             },
             "line": 5,
-            "name": "I have open the browser",
+            "name": "I am baseURI of the regres application",
             "match": {
-              "location": "stepDefinitions.Steps.iOpenBrowser()"
+              "location": "stepDefinitions.RegresSteps.iAmBaseURIOfTheApplication()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 914371000,
+              "status": "passed"
             },
             "line": 6,
-            "name": "I am navigating to the site https://www.demoqa.com/elements",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 10000,
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "I click on button option",
+            "name": "I passing endpoints for single user",
             "match": {
-              "location": "stepDefinitions.Steps.iClickOnButtonOption()"
+              "location": "stepDefinitions.RegresSteps.iPassingEndpointsForSingleUser()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 6000,
-              "status": "skipped"
+              "duration": 1190000,
+              "status": "passed"
             },
-            "line": 8,
-            "name": "I click button options and take screenshot as buttonscreenshot",
+            "line": 7,
+            "name": "I validate the Status code as 200",
             "match": {
               "arguments": [
                 {
-                  "val": "buttonscreenshot",
-                  "offset": 46
+                  "val": "200",
+                  "offset": 30
                 }
               ],
-              "location": "stepDefinitions.Steps.clickingButtonOptions(java.lang.String)"
+              "location": "stepDefinitions.RegresSteps.iValidateTheStatusCode(int)"
             },
-            "keyword": "And "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 6000,
-              "status": "skipped"
+              "duration": 43118000,
+              "status": "passed"
             },
-            "line": 9,
-            "name": "I quit the application",
+            "line": 8,
+            "name": "I validate the email as janet.weaver@reqres.in",
             "match": {
-              "location": "stepDefinitions.Steps.iQuitTheApplication()"
+              "arguments": [
+                {
+                  "val": "janet.weaver@reqres.in",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.RegresSteps.iValidateTheEmailAsJanetWeaverReqresIn(java.lang.String)"
             },
-            "keyword": "Then "
+            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@smoketest"
+            "name": "@smokeapi"
           }
         ]
-      }
-    ],
-    "name": "TextBox option tests",
-    "description": "",
-    "id": "textbox-option-tests",
-    "keyword": "Feature",
-    "uri": "file:src/main/resources/features/button.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
+      },
       {
-        "start_timestamp": "2021-09-14T01:27:06.672Z",
-        "line": 14,
-        "name": "Testing textbox elements",
+        "start_timestamp": "2021-09-21T22:50:50.271Z",
+        "line": 12,
+        "name": "Creating POST Call for Single User",
         "description": "",
-        "id": "textbox-option-tests;testing-textbox-elements;;2",
+        "id": "creating-smoke-test-for-regres.in-api-calls;creating-post-call-for-single-user",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 982703000,
+              "duration": 38000,
               "status": "passed"
             },
-            "line": 6,
-            "name": "I have open the browser",
+            "line": 13,
+            "name": "I am baseURI of the regres application",
             "match": {
-              "location": "stepDefinitions.Steps.iOpenBrowser()"
+              "location": "stepDefinitions.RegresSteps.iAmBaseURIOfTheApplication()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3622398000,
+              "duration": 681493000,
               "status": "passed"
             },
-            "line": 7,
-            "name": "I am navigating to the site",
+            "line": 14,
+            "name": "I passing endpoints for create user",
             "match": {
-              "location": "stepDefinitions.Steps.iAmNavigatingToTheURL()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 96793000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I click on textbox option",
-            "match": {
-              "location": "stepDefinitions.Steps.iClickOnTextboxOption()"
+              "location": "stepDefinitions.RegresSteps.iPassingEndpointsForCreateUser()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1041272000,
+              "duration": 87000,
               "status": "passed"
             },
-            "line": 9,
-            "name": "I enter all the textbox details and take screenshot as screenTextbox100",
+            "line": 15,
+            "name": "I validate the Status code as 201",
             "match": {
               "arguments": [
                 {
-                  "val": "screenTextbox100",
-                  "offset": 55
+                  "val": "201",
+                  "offset": 30
                 }
               ],
-              "location": "stepDefinitions.Steps.iEnterAllTheTextboxDetails(java.lang.String)"
+              "location": "stepDefinitions.RegresSteps.iValidateTheStatusCode(int)"
             },
-            "keyword": "And "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 146335000,
+              "duration": 845000,
               "status": "passed"
             },
-            "line": 10,
-            "name": "I quit the application",
+            "line": 16,
+            "name": "I validate the name as morpheus",
             "match": {
-              "location": "stepDefinitions.Steps.iQuitTheApplication()"
+              "arguments": [
+                {
+                  "val": "morpheus",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinitions.RegresSteps.iValidateTheNameAsMorpheus(java.lang.String)"
             },
-            "keyword": "Then "
+            "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@sanitytest"
+            "name": "@smokeapi"
           }
         ]
       }
     ],
-    "name": "TextBox option tests",
+    "name": "Creating smoke test for regres.in API calls",
     "description": "",
-    "id": "textbox-option-tests",
+    "id": "creating-smoke-test-for-regres.in-api-calls",
     "keyword": "Feature",
-    "uri": "file:src/main/resources/features/textbox.feature",
+    "uri": "file:src/main/resources/features/regresAPI.feature",
     "tags": []
   }
 ]

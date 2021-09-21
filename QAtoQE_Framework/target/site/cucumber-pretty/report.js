@@ -1,225 +1,105 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/main/resources/features/button.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/main/resources/features/regresAPI.feature");
 formatter.feature({
-  "name": "TextBox option tests",
+  "name": "Creating smoke test for regres.in API calls",
   "description": "",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
-  "name": "Testing textbox elements",
+formatter.scenario({
+  "name": "Creating GET Call for Single User",
   "description": "",
-  "keyword": "Scenario Outline",
+  "keyword": "Scenario",
   "tags": [
     {
-      "name": "@smoketest"
+      "name": "@smokeapi"
     }
   ]
 });
 formatter.step({
-  "name": "I have open the browser",
+  "name": "I am baseURI of the regres application",
   "keyword": "Given "
 });
-formatter.step({
-  "name": "I am navigating to the site \u003cURL\u003e",
-  "keyword": "And "
+formatter.match({
+  "location": "stepDefinitions.RegresSteps.iAmBaseURIOfTheApplication()"
+});
+formatter.result({
+  "status": "passed"
 });
 formatter.step({
-  "name": "I click on button option",
+  "name": "I passing endpoints for single user",
   "keyword": "When "
 });
-formatter.step({
-  "name": "I click button options and take screenshot as \u003cScreenshotName\u003e",
-  "keyword": "And "
+formatter.match({
+  "location": "stepDefinitions.RegresSteps.iPassingEndpointsForSingleUser()"
+});
+formatter.result({
+  "status": "passed"
 });
 formatter.step({
-  "name": "I quit the application",
+  "name": "I validate the Status code as 200",
   "keyword": "Then "
 });
-formatter.examples({
-  "name": "",
-  "description": "",
-  "keyword": "Examples",
-  "rows": [
-    {
-      "cells": [
-        "URL",
-        "ScreenshotName"
-      ]
-    },
-    {
-      "cells": [
-        "https://www.demoqa.com/elements",
-        "buttonscreenshot"
-      ]
-    }
-  ]
+formatter.match({
+  "location": "stepDefinitions.RegresSteps.iValidateTheStatusCode(int)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I validate the email as janet.weaver@reqres.in",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepDefinitions.RegresSteps.iValidateTheEmailAsJanetWeaverReqresIn(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
 });
 formatter.scenario({
-  "name": "Testing textbox elements",
+  "name": "Creating POST Call for Single User",
   "description": "",
-  "keyword": "Scenario Outline",
+  "keyword": "Scenario",
   "tags": [
     {
-      "name": "@smoketest"
+      "name": "@smokeapi"
     }
   ]
 });
 formatter.step({
-  "name": "I have open the browser",
+  "name": "I am baseURI of the regres application",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepDefinitions.Steps.iOpenBrowser()"
+  "location": "stepDefinitions.RegresSteps.iAmBaseURIOfTheApplication()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I am navigating to the site https://www.demoqa.com/elements",
-  "keyword": "And "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "I click on button option",
+  "name": "I passing endpoints for create user",
   "keyword": "When "
 });
 formatter.match({
-  "location": "stepDefinitions.Steps.iClickOnButtonOption()"
+  "location": "stepDefinitions.RegresSteps.iPassingEndpointsForCreateUser()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
-  "name": "I click button options and take screenshot as buttonscreenshot",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepDefinitions.Steps.clickingButtonOptions(java.lang.String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "I quit the application",
+  "name": "I validate the Status code as 201",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepDefinitions.Steps.iQuitTheApplication()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.uri("file:src/main/resources/features/textbox.feature");
-formatter.feature({
-  "name": "TextBox option tests",
-  "description": "",
-  "keyword": "Feature"
-});
-formatter.scenarioOutline({
-  "name": "Testing textbox elements",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@sanitytest"
-    }
-  ]
-});
-formatter.step({
-  "name": "I have open the browser",
-  "keyword": "Given "
-});
-formatter.step({
-  "name": "I am navigating to the site",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "I click on textbox option",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "I enter all the textbox details and take screenshot as \u003cScreenshotName\u003e",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "I quit the application",
-  "keyword": "Then "
-});
-formatter.examples({
-  "name": "",
-  "description": "",
-  "keyword": "Examples",
-  "rows": [
-    {
-      "cells": [
-        "ScreenshotName"
-      ]
-    },
-    {
-      "cells": [
-        "screenTextbox100"
-      ]
-    }
-  ]
-});
-formatter.scenario({
-  "name": "Testing textbox elements",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@sanitytest"
-    }
-  ]
-});
-formatter.step({
-  "name": "I have open the browser",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "stepDefinitions.Steps.iOpenBrowser()"
+  "location": "stepDefinitions.RegresSteps.iValidateTheStatusCode(int)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I am navigating to the site",
+  "name": "I validate the name as morpheus",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepDefinitions.Steps.iAmNavigatingToTheURL()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I click on textbox option",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "stepDefinitions.Steps.iClickOnTextboxOption()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I enter all the textbox details and take screenshot as screenTextbox100",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepDefinitions.Steps.iEnterAllTheTextboxDetails(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "I quit the application",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepDefinitions.Steps.iQuitTheApplication()"
+  "location": "stepDefinitions.RegresSteps.iValidateTheNameAsMorpheus(java.lang.String)"
 });
 formatter.result({
   "status": "passed"

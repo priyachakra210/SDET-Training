@@ -1,15 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: smoketests.CucumberRunnerTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.876 s <<< FAILURE! - in smoketests.CucumberRunnerTest
-runScenario(smoketests.CucumberRunnerTest)  Time elapsed: 1.476 s  <<< FAILURE!
-io.cucumber.testng.UndefinedStepException: 
-The step "I am navigating to the site https://www.demoqa.com/elements" is undefined. You can implement it using the snippet(s) below:
-
-@Given("I am navigating to the site https:\\/\\/www.demoqa.com\\/elements")
-public void i_am_navigating_to_the_site_https_www_demoqa_com_elements() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.538 s - in smoketests.CucumberRunnerTest

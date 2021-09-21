@@ -18,7 +18,7 @@ import java.io.IOException;
 //         plugin = { "pretty", "html:target/results" }
         ,plugin= {"pretty","html:target/site/cucumber-pretty","json:target/cucumber/cucumber.json"}
         , glue = { "stepDefinitions" }
-        , tags= {"@sanitytest or @smoketest"}
+        , tags= {"@smokeapi"}
         , strict = true)
 
 public class CucumberRunnerTest extends AbstractTestNGCucumberTests

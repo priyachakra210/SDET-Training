@@ -10,7 +10,7 @@ public class FileReaderManager
 {
 
     public String getProperties(String value) throws IOException {
-        File file = new File("src/main/resources/propertyFiles/data.properties");
+        File file = new File("src/main/resources/properties/data.properties");
 
         FileInputStream fileInput = null;
         try {
