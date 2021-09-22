@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="testNg" verbose="1" parallel="tests">
+    <test name="test1" >
+        <classes>
+            <class name="SmokeTest1" />
+        </classes>
+    </test>
+
+    <test name="Regression1">
+        <classes>
+            <class name="SmokeTest2"/>
+            <class name="Smoketest3"/>
+        </classes>
+    </test>
+</suite>

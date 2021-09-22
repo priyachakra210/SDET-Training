@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="QA_to_QE(failed)">
+    <classes>
+      <class name="Smoketest3">
+        <methods>
+          <include name="radioButtonspage"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- Smoketest3 -->
+    </classes>
+  </test> <!-- QA_to_QE(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
