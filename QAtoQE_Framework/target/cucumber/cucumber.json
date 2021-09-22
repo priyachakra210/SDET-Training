@@ -1,0 +1,165 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-22T00:02:19.606Z",
+        "line": 4,
+        "name": "Creating GET Call for Single User",
+        "description": "",
+        "id": "creating-smoke-test-for-regres.in-api-calls-tests;creating-get-call-for-single-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 451827000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am baseURI of the regres application",
+            "match": {
+              "location": "stepDefinitions.RegresSteps.iAmBaseURIOfTheApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1126207000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I passing endpoints for single user",
+            "match": {
+              "location": "stepDefinitions.RegresSteps.iPassingEndpointsForSingleUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1089000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I validate the Status code as 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.RegresSteps.iValidateTheStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54698000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I validate the email as janet.weaver@reqres.in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "janet.weaver@reqres.in",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.RegresSteps.iValidateTheEmailAsJanetWeaverReqresIn(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeapi"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-22T00:02:21.247Z",
+        "line": 12,
+        "name": "Creating POST Call for Single User",
+        "description": "",
+        "id": "creating-smoke-test-for-regres.in-api-calls-tests;creating-post-call-for-single-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am baseURI of the regres application",
+            "match": {
+              "location": "stepDefinitions.RegresSteps.iAmBaseURIOfTheApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 812412000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I passing endpoints for create user",
+            "match": {
+              "location": "stepDefinitions.RegresSteps.iPassingEndpointsForCreateUser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I validate the Status code as 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.RegresSteps.iValidateTheStatusCode(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 440000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I validate the name as morpheus",
+            "match": {
+              "arguments": [
+                {
+                  "val": "morpheus",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinitions.RegresSteps.iValidateTheNameAsMorpheus(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeapi"
+          }
+        ]
+      }
+    ],
+    "name": "Creating smoke test for regres.in API calls tests",
+    "description": "",
+    "id": "creating-smoke-test-for-regres.in-api-calls-tests",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/regresAPI.feature",
+    "tags": []
+  }
+]
