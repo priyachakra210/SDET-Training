@@ -3,17 +3,17 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-22T00:00:20.698Z",
+        "start_timestamp": "2021-09-22T00:02:19.606Z",
         "line": 4,
         "name": "Creating GET Call for Single User",
         "description": "",
-        "id": "creating-smoke-test-for-regres.in-api-calls;creating-get-call-for-single-user",
+        "id": "creating-smoke-test-for-regres.in-api-calls-tests;creating-get-call-for-single-user",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 454629000,
+              "duration": 451827000,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 922082000,
+              "duration": 1126207000,
               "status": "passed"
             },
             "line": 6,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 1020000,
+              "duration": 1089000,
               "status": "passed"
             },
             "line": 7,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 53975000,
+              "duration": 54698000,
               "status": "passed"
             },
             "line": 8,
@@ -79,17 +79,17 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-22T00:00:22.140Z",
+        "start_timestamp": "2021-09-22T00:02:21.247Z",
         "line": 12,
         "name": "Creating POST Call for Single User",
         "description": "",
-        "id": "creating-smoke-test-for-regres.in-api-calls;creating-post-call-for-single-user",
+        "id": "creating-smoke-test-for-regres.in-api-calls-tests;creating-post-call-for-single-user",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 27000,
+              "duration": 29000,
               "status": "passed"
             },
             "line": 13,
@@ -101,7 +101,7 @@
           },
           {
             "result": {
-              "duration": 828195000,
+              "duration": 812412000,
               "status": "passed"
             },
             "line": 14,
@@ -113,7 +113,7 @@
           },
           {
             "result": {
-              "duration": 51000,
+              "duration": 46000,
               "status": "passed"
             },
             "line": 15,
@@ -131,7 +131,7 @@
           },
           {
             "result": {
-              "duration": 492000,
+              "duration": 440000,
               "status": "passed"
             },
             "line": 16,
@@ -155,9 +155,9 @@
         ]
       }
     ],
-    "name": "Creating smoke test for regres.in API calls",
+    "name": "Creating smoke test for regres.in API calls tests",
     "description": "",
-    "id": "creating-smoke-test-for-regres.in-api-calls",
+    "id": "creating-smoke-test-for-regres.in-api-calls-tests",
     "keyword": "Feature",
     "uri": "file:src/main/resources/features/regresAPI.feature",
     "tags": []

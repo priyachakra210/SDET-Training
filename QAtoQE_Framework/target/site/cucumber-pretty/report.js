@@ -1,6 +1,6 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/main/resources/features/regresAPI.feature");
 formatter.feature({
-  "name": "Creating smoke test for regres.in API calls",
+  "name": "Creating smoke test for regres.in API calls tests",
   "description": "",
   "keyword": "Feature"
 });
