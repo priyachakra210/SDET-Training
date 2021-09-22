@@ -1,4 +1,4 @@
-Feature: Creating smoke test for regres.in API calls
+Feature: Creating smoke test for regres.in API callcle
 
   @smokeapi
   Scenario: Creating GET Call for Single User
