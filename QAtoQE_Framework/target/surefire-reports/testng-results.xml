@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-21T17:50:48 CDT" name="Surefire suite" finished-at="2021-09-21T17:50:51 CDT" duration-ms="2345">
+  <suite started-at="2021-09-21T19:00:20 CDT" name="Surefire suite" finished-at="2021-09-21T19:00:23 CDT" duration-ms="2647">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:smoketests.CucumberRunnerTest@50de0926]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:smoketests.CucumberRunnerTest@133e16fd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2021-09-21T17:50:48 CDT" name="Surefire test" finished-at="2021-09-21T17:50:51 CDT" duration-ms="2345">
+    <test started-at="2021-09-21T19:00:20 CDT" name="Surefire test" finished-at="2021-09-21T19:00:23 CDT" duration-ms="2647">
       <class name="smoketests.CucumberRunnerTest">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:smoketests.CucumberRunnerTest@50de0926]" started-at="2021-09-21T17:50:48 CDT" name="setUpClass" finished-at="2021-09-21T17:50:48 CDT" duration-ms="171" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:smoketests.CucumberRunnerTest@133e16fd]" started-at="2021-09-21T19:00:20 CDT" name="setUpClass" finished-at="2021-09-21T19:00:20 CDT" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:smoketests.CucumberRunnerTest@50de0926]" started-at="2021-09-21T17:50:48 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-21T17:50:50 CDT" duration-ms="1408" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:smoketests.CucumberRunnerTest@133e16fd]" started-at="2021-09-21T19:00:20 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-21T19:00:22 CDT" duration-ms="1521" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:smoketests.CucumberRunnerTest@50de0926]" started-at="2021-09-21T17:50:50 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-21T17:50:50 CDT" duration-ms="686" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:smoketests.CucumberRunnerTest@133e16fd]" started-at="2021-09-21T19:00:22 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-09-21T19:00:22 CDT" duration-ms="832" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:smoketests.CucumberRunnerTest@50de0926]" started-at="2021-09-21T17:50:50 CDT" name="tearDownClass" finished-at="2021-09-21T17:50:51 CDT" duration-ms="60" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:smoketests.CucumberRunnerTest@133e16fd]" started-at="2021-09-21T19:00:22 CDT" name="tearDownClass" finished-at="2021-09-21T19:00:23 CDT" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

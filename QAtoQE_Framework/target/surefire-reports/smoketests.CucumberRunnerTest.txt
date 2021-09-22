@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: smoketests.CucumberRunnerTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.538 s - in smoketests.CucumberRunnerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.901 s - in smoketests.CucumberRunnerTest

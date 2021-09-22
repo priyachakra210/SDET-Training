@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-21T22:50:48.924Z",
+        "start_timestamp": "2021-09-22T00:00:20.698Z",
         "line": 4,
         "name": "Creating GET Call for Single User",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 380799000,
+              "duration": 454629000,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 914371000,
+              "duration": 922082000,
               "status": "passed"
             },
             "line": 6,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 1190000,
+              "duration": 1020000,
               "status": "passed"
             },
             "line": 7,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 43118000,
+              "duration": 53975000,
               "status": "passed"
             },
             "line": 8,
@@ -79,7 +79,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-21T22:50:50.271Z",
+        "start_timestamp": "2021-09-22T00:00:22.140Z",
         "line": 12,
         "name": "Creating POST Call for Single User",
         "description": "",
@@ -89,7 +89,7 @@
         "steps": [
           {
             "result": {
-              "duration": 38000,
+              "duration": 27000,
               "status": "passed"
             },
             "line": 13,
@@ -101,7 +101,7 @@
           },
           {
             "result": {
-              "duration": 681493000,
+              "duration": 828195000,
               "status": "passed"
             },
             "line": 14,
@@ -113,7 +113,7 @@
           },
           {
             "result": {
-              "duration": 87000,
+              "duration": 51000,
               "status": "passed"
             },
             "line": 15,
@@ -131,7 +131,7 @@
           },
           {
             "result": {
-              "duration": 845000,
+              "duration": 492000,
               "status": "passed"
             },
             "line": 16,
